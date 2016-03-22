@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C8DECE91B9C1ECF008E135D /* 测试图片.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DECE81B9C1ECF008E135D /* 测试图片.jpg */; };
+		2CCC567E1B8DCFED00FD6195 /* pono1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCC567D1B8DCFED00FD6195 /* pono1.jpg */; };
+		2CCC56801B8DD06800FD6195 /* abf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCC567F1B8DD06800FD6195 /* abf.jpg */; };
+		2CCF2EBD1B8C6EE6003BC51A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EBC1B8C6EE6003BC51A /* main.m */; };
+		2CCF2EC01B8C6EE6003BC51A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EBF1B8C6EE6003BC51A /* AppDelegate.m */; };
+		2CCF2EC31B8C6EE6003BC51A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EC21B8C6EE6003BC51A /* ViewController.m */; };
+		2CCF2EC81B8C6EE6003BC51A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF2EC71B8C6EE6003BC51A /* Images.xcassets */; };
+		2CCF2ECB1B8C6EE6003BC51A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF2EC91B8C6EE6003BC51A /* LaunchScreen.xib */; };
+		2CCF2ED71B8C6EE7003BC51A /* Arc_helloPanoramaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2ED61B8C6EE7003BC51A /* Arc_helloPanoramaTests.m */; };
+		2CCF2F2F1B8C6F1A003BC51A /* glues_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EE41B8C6F1A003BC51A /* glues_error.c */; };
+		2CCF2F301B8C6F1A003BC51A /* glues_mipmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EE61B8C6F1A003BC51A /* glues_mipmap.c */; };
+		2CCF2F311B8C6F1A003BC51A /* glues_project.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EE81B8C6F1A003BC51A /* glues_project.c */; };
+		2CCF2F321B8C6F1A003BC51A /* glues_quad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EEA1B8C6F1A003BC51A /* glues_quad.c */; };
+		2CCF2F331B8C6F1A003BC51A /* glues_registry.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EEC1B8C6F1A003BC51A /* glues_registry.c */; };
+		2CCF2F341B8C6F1A003BC51A /* alg-outline in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF2EEF1B8C6F1A003BC51A /* alg-outline */; };
+		2CCF2F351B8C6F1A003BC51A /* BuildLog_2011-02-22_18-55-01.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF2EF01B8C6F1A003BC51A /* BuildLog_2011-02-22_18-55-01.txt */; };
+		2CCF2F361B8C6F1A003BC51A /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EF21B8C6F1A003BC51A /* dict.c */; };
+		2CCF2F371B8C6F1A003BC51A /* geom.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EF41B8C6F1A003BC51A /* geom.c */; };
+		2CCF2F381B8C6F1A003BC51A /* memalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EF61B8C6F1A003BC51A /* memalloc.c */; };
+		2CCF2F391B8C6F1A003BC51A /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EF81B8C6F1A003BC51A /* mesh.c */; };
+		2CCF2F3A1B8C6F1A003BC51A /* normal.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EFA1B8C6F1A003BC51A /* normal.c */; };
+		2CCF2F3C1B8C6F1A003BC51A /* priorityq.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2EFF1B8C6F1A003BC51A /* priorityq.c */; };
+		2CCF2F3D1B8C6F1A003BC51A /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF2F011B8C6F1A003BC51A /* README */; };
+		2CCF2F3E1B8C6F1A003BC51A /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F021B8C6F1A003BC51A /* render.c */; };
+		2CCF2F3F1B8C6F1A003BC51A /* sweep.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F041B8C6F1A003BC51A /* sweep.c */; };
+		2CCF2F401B8C6F1A003BC51A /* tess.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F061B8C6F1A003BC51A /* tess.c */; };
+		2CCF2F411B8C6F1A003BC51A /* tessmono.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F081B8C6F1A003BC51A /* tessmono.c */; };
+		2CCF2F441B8C6F1A003BC51A /* PLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F101B8C6F1A003BC51A /* PLCamera.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F451B8C6F1A003BC51A /* PLCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F131B8C6F1A003BC51A /* PLCube.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F461B8C6F1A003BC51A /* PLCylinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F151B8C6F1A003BC51A /* PLCylinder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F471B8C6F1A003BC51A /* PLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F181B8C6F1A003BC51A /* PLImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F481B8C6F1A003BC51A /* PLMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F1A1B8C6F1A003BC51A /* PLMath.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F491B8C6F1A003BC51A /* PLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F1C1B8C6F1A003BC51A /* PLObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F4A1B8C6F1A003BC51A /* PLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F1E1B8C6F1A003BC51A /* PLRenderer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F4B1B8C6F1A003BC51A /* PLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F201B8C6F1A003BC51A /* PLScene.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F4C1B8C6F1A003BC51A /* PLSceneElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F221B8C6F1A003BC51A /* PLSceneElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F4D1B8C6F1A003BC51A /* PLSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F241B8C6F1A003BC51A /* PLSphere.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F4E1B8C6F1A003BC51A /* PLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F271B8C6F1A003BC51A /* PLTexture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F4F1B8C6F1A003BC51A /* PLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F291B8C6F1A003BC51A /* PLUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F501B8C6F1A003BC51A /* PLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F2B1B8C6F1A003BC51A /* PLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F511B8C6F1A003BC51A /* PLViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF2F2D1B8C6F1A003BC51A /* PLViewBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2CCF2F521B8C6F1A003BC51A /* tags in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF2F2E1B8C6F1A003BC51A /* tags */; };
+		2CCF2F5B1B8C75ED003BC51A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCF2F5A1B8C75ED003BC51A /* CoreGraphics.framework */; };
+		2CCF2F5D1B8C75F9003BC51A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCF2F5C1B8C75F9003BC51A /* OpenGLES.framework */; };
+		2CCF2F5F1B8C7600003BC51A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCF2F5E1B8C7600003BC51A /* QuartzCore.framework */; };
+		2CCF2F611B8C7919003BC51A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCF2F601B8C7919003BC51A /* UIKit.framework */; };
+		2CCF2F631B8C791F003BC51A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCF2F621B8C791F003BC51A /* AVFoundation.framework */; };
+		2CCF2F651B8C7E12003BC51A /* pano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF2F641B8C7E12003BC51A /* pano.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CCF2ED11B8C6EE6003BC51A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CCF2EAF1B8C6EE6003BC51A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CCF2EB61B8C6EE6003BC51A;
+			remoteInfo = "Arc-helloPanorama";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C8DECE81B9C1ECF008E135D /* 测试图片.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "测试图片.jpg"; sourceTree = "<group>"; };
+		2CCC567D1B8DCFED00FD6195 /* pono1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pono1.jpg; sourceTree = "<group>"; };
+		2CCC567F1B8DD06800FD6195 /* abf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abf.jpg; sourceTree = "<group>"; };
+		2CCF2EB71B8C6EE6003BC51A /* Arc-helloPanorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arc-helloPanorama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCF2EBB1B8C6EE6003BC51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCF2EBC1B8C6EE6003BC51A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CCF2EBE1B8C6EE6003BC51A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CCF2EBF1B8C6EE6003BC51A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CCF2EC11B8C6EE6003BC51A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CCF2EC21B8C6EE6003BC51A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CCF2EC71B8C6EE6003BC51A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CCF2ECA1B8C6EE6003BC51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2CCF2ED01B8C6EE6003BC51A /* Arc-helloPanoramaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arc-helloPanoramaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCF2ED51B8C6EE7003BC51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCF2ED61B8C6EE7003BC51A /* Arc_helloPanoramaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arc_helloPanoramaTests.m; sourceTree = "<group>"; };
+		2CCF2EE21B8C6F1A003BC51A /* glu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glu.h; sourceTree = "<group>"; };
+		2CCF2EE31B8C6F1A003BC51A /* glues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues.h; sourceTree = "<group>"; };
+		2CCF2EE41B8C6F1A003BC51A /* glues_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glues_error.c; sourceTree = "<group>"; };
+		2CCF2EE51B8C6F1A003BC51A /* glues_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues_error.h; sourceTree = "<group>"; };
+		2CCF2EE61B8C6F1A003BC51A /* glues_mipmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glues_mipmap.c; sourceTree = "<group>"; };
+		2CCF2EE71B8C6F1A003BC51A /* glues_mipmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues_mipmap.h; sourceTree = "<group>"; };
+		2CCF2EE81B8C6F1A003BC51A /* glues_project.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glues_project.c; sourceTree = "<group>"; };
+		2CCF2EE91B8C6F1A003BC51A /* glues_project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues_project.h; sourceTree = "<group>"; };
+		2CCF2EEA1B8C6F1A003BC51A /* glues_quad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glues_quad.c; sourceTree = "<group>"; };
+		2CCF2EEB1B8C6F1A003BC51A /* glues_quad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues_quad.h; sourceTree = "<group>"; };
+		2CCF2EEC1B8C6F1A003BC51A /* glues_registry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glues_registry.c; sourceTree = "<group>"; };
+		2CCF2EED1B8C6F1A003BC51A /* glues_registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues_registry.h; sourceTree = "<group>"; };
+		2CCF2EEF1B8C6F1A003BC51A /* alg-outline */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "alg-outline"; sourceTree = "<group>"; };
+		2CCF2EF01B8C6F1A003BC51A /* BuildLog_2011-02-22_18-55-01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BuildLog_2011-02-22_18-55-01.txt"; sourceTree = "<group>"; };
+		2CCF2EF11B8C6F1A003BC51A /* dict-list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dict-list.h"; sourceTree = "<group>"; };
+		2CCF2EF21B8C6F1A003BC51A /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
+		2CCF2EF31B8C6F1A003BC51A /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		2CCF2EF41B8C6F1A003BC51A /* geom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geom.c; sourceTree = "<group>"; };
+		2CCF2EF51B8C6F1A003BC51A /* geom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geom.h; sourceTree = "<group>"; };
+		2CCF2EF61B8C6F1A003BC51A /* memalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memalloc.c; sourceTree = "<group>"; };
+		2CCF2EF71B8C6F1A003BC51A /* memalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memalloc.h; sourceTree = "<group>"; };
+		2CCF2EF81B8C6F1A003BC51A /* mesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mesh.c; sourceTree = "<group>"; };
+		2CCF2EF91B8C6F1A003BC51A /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		2CCF2EFA1B8C6F1A003BC51A /* normal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = normal.c; sourceTree = "<group>"; };
+		2CCF2EFB1B8C6F1A003BC51A /* normal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normal.h; sourceTree = "<group>"; };
+		2CCF2EFE1B8C6F1A003BC51A /* priorityq-sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "priorityq-sort.h"; sourceTree = "<group>"; };
+		2CCF2EFF1B8C6F1A003BC51A /* priorityq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = priorityq.c; sourceTree = "<group>"; };
+		2CCF2F001B8C6F1A003BC51A /* priorityq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = priorityq.h; sourceTree = "<group>"; };
+		2CCF2F011B8C6F1A003BC51A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2CCF2F021B8C6F1A003BC51A /* render.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = render.c; sourceTree = "<group>"; };
+		2CCF2F031B8C6F1A003BC51A /* render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
+		2CCF2F041B8C6F1A003BC51A /* sweep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sweep.c; sourceTree = "<group>"; };
+		2CCF2F051B8C6F1A003BC51A /* sweep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweep.h; sourceTree = "<group>"; };
+		2CCF2F061B8C6F1A003BC51A /* tess.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tess.c; sourceTree = "<group>"; };
+		2CCF2F071B8C6F1A003BC51A /* tess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tess.h; sourceTree = "<group>"; };
+		2CCF2F081B8C6F1A003BC51A /* tessmono.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tessmono.c; sourceTree = "<group>"; };
+		2CCF2F091B8C6F1A003BC51A /* tessmono.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tessmono.h; sourceTree = "<group>"; };
+		2CCF2F0F1B8C6F1A003BC51A /* PLCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCamera.h; sourceTree = "<group>"; };
+		2CCF2F101B8C6F1A003BC51A /* PLCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCamera.m; sourceTree = "<group>"; };
+		2CCF2F111B8C6F1A003BC51A /* PLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLConstants.h; sourceTree = "<group>"; };
+		2CCF2F121B8C6F1A003BC51A /* PLCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCube.h; sourceTree = "<group>"; };
+		2CCF2F131B8C6F1A003BC51A /* PLCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCube.m; sourceTree = "<group>"; };
+		2CCF2F141B8C6F1A003BC51A /* PLCylinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCylinder.h; sourceTree = "<group>"; };
+		2CCF2F151B8C6F1A003BC51A /* PLCylinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCylinder.m; sourceTree = "<group>"; };
+		2CCF2F161B8C6F1A003BC51A /* PLEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLEnums.h; sourceTree = "<group>"; };
+		2CCF2F171B8C6F1A003BC51A /* PLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLImage.h; sourceTree = "<group>"; };
+		2CCF2F181B8C6F1A003BC51A /* PLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLImage.m; sourceTree = "<group>"; };
+		2CCF2F191B8C6F1A003BC51A /* PLMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLMath.h; sourceTree = "<group>"; };
+		2CCF2F1A1B8C6F1A003BC51A /* PLMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLMath.m; sourceTree = "<group>"; };
+		2CCF2F1B1B8C6F1A003BC51A /* PLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLObject.h; sourceTree = "<group>"; };
+		2CCF2F1C1B8C6F1A003BC51A /* PLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLObject.m; sourceTree = "<group>"; };
+		2CCF2F1D1B8C6F1A003BC51A /* PLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRenderer.h; sourceTree = "<group>"; };
+		2CCF2F1E1B8C6F1A003BC51A /* PLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLRenderer.m; sourceTree = "<group>"; };
+		2CCF2F1F1B8C6F1A003BC51A /* PLScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLScene.h; sourceTree = "<group>"; };
+		2CCF2F201B8C6F1A003BC51A /* PLScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLScene.m; sourceTree = "<group>"; };
+		2CCF2F211B8C6F1A003BC51A /* PLSceneElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSceneElement.h; sourceTree = "<group>"; };
+		2CCF2F221B8C6F1A003BC51A /* PLSceneElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSceneElement.m; sourceTree = "<group>"; };
+		2CCF2F231B8C6F1A003BC51A /* PLSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSphere.h; sourceTree = "<group>"; };
+		2CCF2F241B8C6F1A003BC51A /* PLSphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSphere.m; sourceTree = "<group>"; };
+		2CCF2F251B8C6F1A003BC51A /* PLStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLStructs.h; sourceTree = "<group>"; };
+		2CCF2F261B8C6F1A003BC51A /* PLTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTexture.h; sourceTree = "<group>"; };
+		2CCF2F271B8C6F1A003BC51A /* PLTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTexture.m; sourceTree = "<group>"; };
+		2CCF2F281B8C6F1A003BC51A /* PLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLUtils.h; sourceTree = "<group>"; };
+		2CCF2F291B8C6F1A003BC51A /* PLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLUtils.m; sourceTree = "<group>"; };
+		2CCF2F2A1B8C6F1A003BC51A /* PLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLView.h; sourceTree = "<group>"; };
+		2CCF2F2B1B8C6F1A003BC51A /* PLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLView.m; sourceTree = "<group>"; };
+		2CCF2F2C1B8C6F1A003BC51A /* PLViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLViewBase.h; sourceTree = "<group>"; };
+		2CCF2F2D1B8C6F1A003BC51A /* PLViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLViewBase.m; sourceTree = "<group>"; };
+		2CCF2F2E1B8C6F1A003BC51A /* tags */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tags; sourceTree = "<group>"; };
+		2CCF2F591B8C6FCC003BC51A /* HelloPanorama_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPanorama_Prefix.pch; sourceTree = "<group>"; };
+		2CCF2F5A1B8C75ED003BC51A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CCF2F5C1B8C75F9003BC51A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2CCF2F5E1B8C7600003BC51A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2CCF2F601B8C7919003BC51A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CCF2F621B8C791F003BC51A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2CCF2F641B8C7E12003BC51A /* pano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CCF2EB41B8C6EE6003BC51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCF2F631B8C791F003BC51A /* AVFoundation.framework in Frameworks */,
+				2CCF2F611B8C7919003BC51A /* UIKit.framework in Frameworks */,
+				2CCF2F5F1B8C7600003BC51A /* QuartzCore.framework in Frameworks */,
+				2CCF2F5D1B8C75F9003BC51A /* OpenGLES.framework in Frameworks */,
+				2CCF2F5B1B8C75ED003BC51A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCF2ECD1B8C6EE6003BC51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CCF2EAE1B8C6EE6003BC51A = {
+			isa = PBXGroup;
+			children = (
+				2CCF2F621B8C791F003BC51A /* AVFoundation.framework */,
+				2CCF2F601B8C7919003BC51A /* UIKit.framework */,
+				2CCF2F5E1B8C7600003BC51A /* QuartzCore.framework */,
+				2CCF2F5C1B8C75F9003BC51A /* OpenGLES.framework */,
+				2CCF2F5A1B8C75ED003BC51A /* CoreGraphics.framework */,
+				2CCF2EE01B8C6F1A003BC51A /* Classes */,
+				2CCF2EB91B8C6EE6003BC51A /* Arc-helloPanorama */,
+				2CCF2ED31B8C6EE7003BC51A /* Arc-helloPanoramaTests */,
+				2CCF2EB81B8C6EE6003BC51A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CCF2EB81B8C6EE6003BC51A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CCF2EB71B8C6EE6003BC51A /* Arc-helloPanorama.app */,
+				2CCF2ED01B8C6EE6003BC51A /* Arc-helloPanoramaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CCF2EB91B8C6EE6003BC51A /* Arc-helloPanorama */ = {
+			isa = PBXGroup;
+			children = (
+				2CCF2EBE1B8C6EE6003BC51A /* AppDelegate.h */,
+				2CCF2EBF1B8C6EE6003BC51A /* AppDelegate.m */,
+				2CCF2EC11B8C6EE6003BC51A /* ViewController.h */,
+				2CCF2EC21B8C6EE6003BC51A /* ViewController.m */,
+				2CCF2EC71B8C6EE6003BC51A /* Images.xcassets */,
+				2CCF2EC91B8C6EE6003BC51A /* LaunchScreen.xib */,
+				2CCF2EBA1B8C6EE6003BC51A /* Supporting Files */,
+			);
+			path = "Arc-helloPanorama";
+			sourceTree = "<group>";
+		};
+		2CCF2EBA1B8C6EE6003BC51A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C8DECE81B9C1ECF008E135D /* 测试图片.jpg */,
+				2CCC567F1B8DD06800FD6195 /* abf.jpg */,
+				2CCC567D1B8DCFED00FD6195 /* pono1.jpg */,
+				2CCF2F641B8C7E12003BC51A /* pano.jpg */,
+				2CCF2F591B8C6FCC003BC51A /* HelloPanorama_Prefix.pch */,
+				2CCF2EBB1B8C6EE6003BC51A /* Info.plist */,
+				2CCF2EBC1B8C6EE6003BC51A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CCF2ED31B8C6EE7003BC51A /* Arc-helloPanoramaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CCF2ED61B8C6EE7003BC51A /* Arc_helloPanoramaTests.m */,
+				2CCF2ED41B8C6EE7003BC51A /* Supporting Files */,
+			);
+			path = "Arc-helloPanoramaTests";
+			sourceTree = "<group>";
+		};
+		2CCF2ED41B8C6EE7003BC51A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CCF2ED51B8C6EE7003BC51A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CCF2EE01B8C6F1A003BC51A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2CCF2EE11B8C6F1A003BC51A /* glues */,
+				2CCF2F0E1B8C6F1A003BC51A /* PL */,
+				2CCF2F2E1B8C6F1A003BC51A /* tags */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2CCF2EE11B8C6F1A003BC51A /* glues */ = {
+			isa = PBXGroup;
+			children = (
+				2CCF2EE21B8C6F1A003BC51A /* glu.h */,
+				2CCF2EE31B8C6F1A003BC51A /* glues.h */,
+				2CCF2EE41B8C6F1A003BC51A /* glues_error.c */,
+				2CCF2EE51B8C6F1A003BC51A /* glues_error.h */,
+				2CCF2EE61B8C6F1A003BC51A /* glues_mipmap.c */,
+				2CCF2EE71B8C6F1A003BC51A /* glues_mipmap.h */,
+				2CCF2EE81B8C6F1A003BC51A /* glues_project.c */,
+				2CCF2EE91B8C6F1A003BC51A /* glues_project.h */,
+				2CCF2EEA1B8C6F1A003BC51A /* glues_quad.c */,
+				2CCF2EEB1B8C6F1A003BC51A /* glues_quad.h */,
+				2CCF2EEC1B8C6F1A003BC51A /* glues_registry.c */,
+				2CCF2EED1B8C6F1A003BC51A /* glues_registry.h */,
+				2CCF2EEE1B8C6F1A003BC51A /* libtess */,
+			);
+			path = glues;
+			sourceTree = "<group>";
+		};
+		2CCF2EEE1B8C6F1A003BC51A /* libtess */ = {
+			isa = PBXGroup;
+			children = (
+				2CCF2EEF1B8C6F1A003BC51A /* alg-outline */,
+				2CCF2EF01B8C6F1A003BC51A /* BuildLog_2011-02-22_18-55-01.txt */,
+				2CCF2EF11B8C6F1A003BC51A /* dict-list.h */,
+				2CCF2EF21B8C6F1A003BC51A /* dict.c */,
+				2CCF2EF31B8C6F1A003BC51A /* dict.h */,
+				2CCF2EF41B8C6F1A003BC51A /* geom.c */,
+				2CCF2EF51B8C6F1A003BC51A /* geom.h */,
+				2CCF2EF61B8C6F1A003BC51A /* memalloc.c */,
+				2CCF2EF71B8C6F1A003BC51A /* memalloc.h */,
+				2CCF2EF81B8C6F1A003BC51A /* mesh.c */,
+				2CCF2EF91B8C6F1A003BC51A /* mesh.h */,
+				2CCF2EFA1B8C6F1A003BC51A /* normal.c */,
+				2CCF2EFB1B8C6F1A003BC51A /* normal.h */,
+				2CCF2EFE1B8C6F1A003BC51A /* priorityq-sort.h */,
+				2CCF2EFF1B8C6F1A003BC51A /* priorityq.c */,
+				2CCF2F001B8C6F1A003BC51A /* priorityq.h */,
+				2CCF2F011B8C6F1A003BC51A /* README */,
+				2CCF2F021B8C6F1A003BC51A /* render.c */,
+				2CCF2F031B8C6F1A003BC51A /* render.h */,
+				2CCF2F041B8C6F1A003BC51A /* sweep.c */,
+				2CCF2F051B8C6F1A003BC51A /* sweep.h */,
+				2CCF2F061B8C6F1A003BC51A /* tess.c */,
+				2CCF2F071B8C6F1A003BC51A /* tess.h */,
+				2CCF2F081B8C6F1A003BC51A /* tessmono.c */,
+				2CCF2F091B8C6F1A003BC51A /* tessmono.h */,
+			);
+			path = libtess;
+			sourceTree = "<group>";
+		};
+		2CCF2F0E1B8C6F1A003BC51A /* PL */ = {
+			isa = PBXGroup;
+			children = (
+				2CCF2F0F1B8C6F1A003BC51A /* PLCamera.h */,
+				2CCF2F101B8C6F1A003BC51A /* PLCamera.m */,
+				2CCF2F111B8C6F1A003BC51A /* PLConstants.h */,
+				2CCF2F121B8C6F1A003BC51A /* PLCube.h */,
+				2CCF2F131B8C6F1A003BC51A /* PLCube.m */,
+				2CCF2F141B8C6F1A003BC51A /* PLCylinder.h */,
+				2CCF2F151B8C6F1A003BC51A /* PLCylinder.m */,
+				2CCF2F161B8C6F1A003BC51A /* PLEnums.h */,
+				2CCF2F171B8C6F1A003BC51A /* PLImage.h */,
+				2CCF2F181B8C6F1A003BC51A /* PLImage.m */,
+				2CCF2F191B8C6F1A003BC51A /* PLMath.h */,
+				2CCF2F1A1B8C6F1A003BC51A /* PLMath.m */,
+				2CCF2F1B1B8C6F1A003BC51A /* PLObject.h */,
+				2CCF2F1C1B8C6F1A003BC51A /* PLObject.m */,
+				2CCF2F1D1B8C6F1A003BC51A /* PLRenderer.h */,
+				2CCF2F1E1B8C6F1A003BC51A /* PLRenderer.m */,
+				2CCF2F1F1B8C6F1A003BC51A /* PLScene.h */,
+				2CCF2F201B8C6F1A003BC51A /* PLScene.m */,
+				2CCF2F211B8C6F1A003BC51A /* PLSceneElement.h */,
+				2CCF2F221B8C6F1A003BC51A /* PLSceneElement.m */,
+				2CCF2F231B8C6F1A003BC51A /* PLSphere.h */,
+				2CCF2F241B8C6F1A003BC51A /* PLSphere.m */,
+				2CCF2F251B8C6F1A003BC51A /* PLStructs.h */,
+				2CCF2F261B8C6F1A003BC51A /* PLTexture.h */,
+				2CCF2F271B8C6F1A003BC51A /* PLTexture.m */,
+				2CCF2F281B8C6F1A003BC51A /* PLUtils.h */,
+				2CCF2F291B8C6F1A003BC51A /* PLUtils.m */,
+				2CCF2F2A1B8C6F1A003BC51A /* PLView.h */,
+				2CCF2F2B1B8C6F1A003BC51A /* PLView.m */,
+				2CCF2F2C1B8C6F1A003BC51A /* PLViewBase.h */,
+				2CCF2F2D1B8C6F1A003BC51A /* PLViewBase.m */,
+			);
+			path = PL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CCF2EB61B8C6EE6003BC51A /* Arc-helloPanorama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCF2EDA1B8C6EE7003BC51A /* Build configuration list for PBXNativeTarget "Arc-helloPanorama" */;
+			buildPhases = (
+				2CCF2EB31B8C6EE6003BC51A /* Sources */,
+				2CCF2EB41B8C6EE6003BC51A /* Frameworks */,
+				2CCF2EB51B8C6EE6003BC51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arc-helloPanorama";
+			productName = "Arc-helloPanorama";
+			productReference = 2CCF2EB71B8C6EE6003BC51A /* Arc-helloPanorama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CCF2ECF1B8C6EE6003BC51A /* Arc-helloPanoramaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCF2EDD1B8C6EE7003BC51A /* Build configuration list for PBXNativeTarget "Arc-helloPanoramaTests" */;
+			buildPhases = (
+				2CCF2ECC1B8C6EE6003BC51A /* Sources */,
+				2CCF2ECD1B8C6EE6003BC51A /* Frameworks */,
+				2CCF2ECE1B8C6EE6003BC51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CCF2ED21B8C6EE6003BC51A /* PBXTargetDependency */,
+			);
+			name = "Arc-helloPanoramaTests";
+			productName = "Arc-helloPanoramaTests";
+			productReference = 2CCF2ED01B8C6EE6003BC51A /* Arc-helloPanoramaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CCF2EAF1B8C6EE6003BC51A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = FDD;
+				TargetAttributes = {
+					2CCF2EB61B8C6EE6003BC51A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2CCF2ECF1B8C6EE6003BC51A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2CCF2EB61B8C6EE6003BC51A;
+					};
+				};
+			};
+			buildConfigurationList = 2CCF2EB21B8C6EE6003BC51A /* Build configuration list for PBXProject "Arc-helloPanorama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CCF2EAE1B8C6EE6003BC51A;
+			productRefGroup = 2CCF2EB81B8C6EE6003BC51A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CCF2EB61B8C6EE6003BC51A /* Arc-helloPanorama */,
+				2CCF2ECF1B8C6EE6003BC51A /* Arc-helloPanoramaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CCF2EB51B8C6EE6003BC51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCF2F3D1B8C6F1A003BC51A /* README in Resources */,
+				2CCF2F521B8C6F1A003BC51A /* tags in Resources */,
+				2CCF2F651B8C7E12003BC51A /* pano.jpg in Resources */,
+				2CCF2F351B8C6F1A003BC51A /* BuildLog_2011-02-22_18-55-01.txt in Resources */,
+				2CCF2F341B8C6F1A003BC51A /* alg-outline in Resources */,
+				2CCC567E1B8DCFED00FD6195 /* pono1.jpg in Resources */,
+				2CCC56801B8DD06800FD6195 /* abf.jpg in Resources */,
+				2CCF2ECB1B8C6EE6003BC51A /* LaunchScreen.xib in Resources */,
+				2C8DECE91B9C1ECF008E135D /* 测试图片.jpg in Resources */,
+				2CCF2EC81B8C6EE6003BC51A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCF2ECE1B8C6EE6003BC51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CCF2EB31B8C6EE6003BC51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCF2EC31B8C6EE6003BC51A /* ViewController.m in Sources */,
+				2CCF2F3C1B8C6F1A003BC51A /* priorityq.c in Sources */,
+				2CCF2F501B8C6F1A003BC51A /* PLView.m in Sources */,
+				2CCF2F441B8C6F1A003BC51A /* PLCamera.m in Sources */,
+				2CCF2F331B8C6F1A003BC51A /* glues_registry.c in Sources */,
+				2CCF2F411B8C6F1A003BC51A /* tessmono.c in Sources */,
+				2CCF2F301B8C6F1A003BC51A /* glues_mipmap.c in Sources */,
+				2CCF2F361B8C6F1A003BC51A /* dict.c in Sources */,
+				2CCF2F481B8C6F1A003BC51A /* PLMath.m in Sources */,
+				2CCF2F491B8C6F1A003BC51A /* PLObject.m in Sources */,
+				2CCF2F3F1B8C6F1A003BC51A /* sweep.c in Sources */,
+				2CCF2F4D1B8C6F1A003BC51A /* PLSphere.m in Sources */,
+				2CCF2F451B8C6F1A003BC51A /* PLCube.m in Sources */,
+				2CCF2EC01B8C6EE6003BC51A /* AppDelegate.m in Sources */,
+				2CCF2F4B1B8C6F1A003BC51A /* PLScene.m in Sources */,
+				2CCF2F371B8C6F1A003BC51A /* geom.c in Sources */,
+				2CCF2F3A1B8C6F1A003BC51A /* normal.c in Sources */,
+				2CCF2F3E1B8C6F1A003BC51A /* render.c in Sources */,
+				2CCF2F4F1B8C6F1A003BC51A /* PLUtils.m in Sources */,
+				2CCF2F4E1B8C6F1A003BC51A /* PLTexture.m in Sources */,
+				2CCF2F511B8C6F1A003BC51A /* PLViewBase.m in Sources */,
+				2CCF2EBD1B8C6EE6003BC51A /* main.m in Sources */,
+				2CCF2F311B8C6F1A003BC51A /* glues_project.c in Sources */,
+				2CCF2F391B8C6F1A003BC51A /* mesh.c in Sources */,
+				2CCF2F2F1B8C6F1A003BC51A /* glues_error.c in Sources */,
+				2CCF2F4A1B8C6F1A003BC51A /* PLRenderer.m in Sources */,
+				2CCF2F381B8C6F1A003BC51A /* memalloc.c in Sources */,
+				2CCF2F461B8C6F1A003BC51A /* PLCylinder.m in Sources */,
+				2CCF2F401B8C6F1A003BC51A /* tess.c in Sources */,
+				2CCF2F471B8C6F1A003BC51A /* PLImage.m in Sources */,
+				2CCF2F321B8C6F1A003BC51A /* glues_quad.c in Sources */,
+				2CCF2F4C1B8C6F1A003BC51A /* PLSceneElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCF2ECC1B8C6EE6003BC51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCF2ED71B8C6EE7003BC51A /* Arc_helloPanoramaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CCF2ED21B8C6EE6003BC51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CCF2EB61B8C6EE6003BC51A /* Arc-helloPanorama */;
+			targetProxy = 2CCF2ED11B8C6EE6003BC51A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CCF2EC91B8C6EE6003BC51A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCF2ECA1B8C6EE6003BC51A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CCF2ED81B8C6EE7003BC51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CCF2ED91B8C6EE7003BC51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CCF2EDB1B8C6EE7003BC51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Biao Hou (42GXD4WTUY)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/HelloPanorama_Prefix.pch";
+				INFOPLIST_FILE = "Arc-helloPanorama/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a74cc2d-9b3c-4d86-b47a-fc1431e1a837";
+			};
+			name = Debug;
+		};
+		2CCF2EDC1B8C6EE7003BC51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Fangduoduo Network Technoligies Co.,Ltd";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/HelloPanorama_Prefix.pch";
+				INFOPLIST_FILE = "Arc-helloPanorama/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a74cc2d-9b3c-4d86-b47a-fc1431e1a837";
+			};
+			name = Release;
+		};
+		2CCF2EDE1B8C6EE7003BC51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Arc-helloPanoramaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arc-helloPanorama.app/Arc-helloPanorama";
+			};
+			name = Debug;
+		};
+		2CCF2EDF1B8C6EE7003BC51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Arc-helloPanoramaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arc-helloPanorama.app/Arc-helloPanorama";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CCF2EB21B8C6EE6003BC51A /* Build configuration list for PBXProject "Arc-helloPanorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCF2ED81B8C6EE7003BC51A /* Debug */,
+				2CCF2ED91B8C6EE7003BC51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCF2EDA1B8C6EE7003BC51A /* Build configuration list for PBXNativeTarget "Arc-helloPanorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCF2EDB1B8C6EE7003BC51A /* Debug */,
+				2CCF2EDC1B8C6EE7003BC51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCF2EDD1B8C6EE7003BC51A /* Build configuration list for PBXNativeTarget "Arc-helloPanoramaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCF2EDE1B8C6EE7003BC51A /* Debug */,
+				2CCF2EDF1B8C6EE7003BC51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CCF2EAF1B8C6EE6003BC51A /* Project object */;
+}

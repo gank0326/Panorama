@@ -1,0 +1,3 @@
+applicationDidFinishLaunching	HelloPanoramaAppDelegate.m	/^- (void)applicationDidFinishLaunching:(UIApplicati/
+property	HelloPanoramaAppDelegate.h	/^@property (nonatomic, retain) IBOutlet UIWindow *w/
+shouldAutorotateToInterfaceOrientation	HelloPanoramaViewController.m	/^- (BOOL)shouldAutorotateToInterfaceOrientation:(UI/

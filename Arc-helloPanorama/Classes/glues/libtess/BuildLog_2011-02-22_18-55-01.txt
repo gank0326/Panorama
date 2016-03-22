@@ -1,0 +1,27 @@
+
+Build HelloPanorama of project HelloPanorama with configuration Debug
+
+Check dependencies
+
+[WARN]Warning: Multiple build commands for output file /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/Debug-iphonesimulator/HelloPanorama.app/README
+
+CompileC build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/Objects-normal/i386/sweep.o Classes/glues/libtess/sweep.c normal i386 c com.apple.compilers.gcc.4_2
+cd /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama
+setenv LANG en_US.US-ASCII
+setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/HelloPanorama-generated-files.hmap -I/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/HelloPanorama-own-target-headers.hmap -I/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/HelloPanorama-all-target-headers.hmap -iquote /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/HelloPanorama-project-headers.hmap -F/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/Debug-iphonesimulator -I/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/Debug-iphonesimulator/include -I../PanoramaGL -I/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/DerivedSources/i386 -I/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/DerivedSources -include /var/folders/up/upjJnlcQEuS66OAqn9gTHE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloPanorama_Prefix-emqiydofamkifdbnoyyvalhttaxd/HelloPanorama_Prefix.pch -c /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/Classes/glues/libtess/sweep.c -o /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/Objects-normal/i386/sweep.o
+
+/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/Classes/glues/libtess/sweep.c: In function 'InitPriorityQ':
+/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/Classes/glues/libtess/sweep.c:1557: warning: implicit declaration of function '__gl_pqSortNewPriorityQ'
+/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/Classes/glues/libtess/sweep.c:1557: warning: assignment makes pointer from integer without a cast
+
+Ld build/Debug-iphonesimulator/HelloPanorama.app/HelloPanorama normal i386
+cd /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama
+setenv MACOSX_DEPLOYMENT_TARGET 10.6
+setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/Debug-iphonesimulator -F/Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/Debug-iphonesimulator -filelist /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/Objects-normal/i386/HelloPanorama.LinkFileList -mmacosx-version-min=10.6 -dead_strip -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -o /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/Debug-iphonesimulator/HelloPanorama.app/HelloPanorama
+
+ld: duplicate symbol ___gl_pqHeapNewPriorityQ in /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/Objects-normal/i386/priorityq.o and /Users/yapingxin/Dev/PublicLibrary/Panorama/HelloPanorama/HelloPanorama/build/HelloPanorama.build/Debug-iphonesimulator/HelloPanorama.build/Objects-normal/i386/priorityq-heap.o
+collect2: ld returned 1 exit status
+Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1
+
